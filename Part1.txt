@@ -1,0 +1,12 @@
+package Pack1;
+
+import Pack2.T2;
+
+public class T1 {
+	public static void main(String[] args) {
+		for(int i = 0;i<5;i++) {
+			Thread t01 = new T2();
+			t01.start();
+	}
+}
+}

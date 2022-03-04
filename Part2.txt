@@ -1,0 +1,14 @@
+package Pack2;
+
+public class T2 extends Thread{
+	public T2() {
+		super();
+	}
+
+	@Override
+	public void run() {
+		System.out.println(getId());
+		super.run();
+	}
+	
+}
